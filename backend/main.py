@@ -13,7 +13,10 @@ app.add_middleware(
     # IMPORTANT: Add your future Netlify URL here
     # For local development, keep http://localhost:5173
     # Replace 'https://YOUR-NETLIFY-APP-NAME.netlify.app' with your actual Netlify URL
-    allow_origins=["http://localhost:5173", "https://YOUR-NETLIFY-APP-NAME.netlify.app"],
+     allow_origins=[
+        "http://localhost:5173",
+        "https://wondrous-croissant-826418.netlify.app"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
